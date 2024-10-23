@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void begin()
     {
-        Toast.makeText(this, "initialize quiz", Toast.LENGTH_SHORT).show();
         Intent questions = new Intent(MainActivity.this, Questions.class);
         startActivity(questions);
     }

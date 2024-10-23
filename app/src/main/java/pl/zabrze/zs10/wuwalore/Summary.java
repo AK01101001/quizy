@@ -13,6 +13,7 @@ public class Summary extends AppCompatActivity {
         setContentView(R.layout.activity_summary);
         TextView textView = findViewById(R.id.textView);
         String summary = getIntent().getStringExtra("Points");
-        textView.setText("Points : "+summary);
+        String questions = getIntent().getStringExtra("Questions");
+        textView.setText("Points : "+summary+" / "+questions);
     }
 }
