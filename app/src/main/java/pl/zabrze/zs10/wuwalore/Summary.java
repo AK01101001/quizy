@@ -12,6 +12,7 @@ public class Summary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_summary);
         TextView textView = findViewById(R.id.textView);
-        textView.setText(getIntent().getStringExtra("Points"));
+        String summary = getIntent().getStringExtra("Points");
+        textView.setText("Points : "+summary);
     }
 }

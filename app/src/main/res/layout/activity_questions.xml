@@ -22,16 +22,16 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/a3"
-            android:layout_width="wrap_content"
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/button_color"
 
             android:text="@string/placeHolder" />
 
         <Button
-            android:id="@+id/a4"
-            android:layout_width="wrap_content"
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/button_color"
 
@@ -44,16 +44,16 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/a1"
-            android:layout_width="match_parent"
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/button_color"
 
             android:text="@string/placeHolder" />
 
         <Button
-            android:id="@+id/a2"
-            android:layout_width="match_parent"
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/button_color"
 

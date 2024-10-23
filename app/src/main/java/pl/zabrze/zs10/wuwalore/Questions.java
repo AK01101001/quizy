@@ -68,7 +68,7 @@ public class Questions extends AppCompatActivity {
     {
         Toast.makeText(this, "initializing summary", Toast.LENGTH_SHORT).show();
         Intent summary = new Intent(Questions.this,Summary.class);
-        summary.putExtra("Points",correctAnswersCounter);
+        summary.putExtra("Points",Integer.toString(correctAnswersCounter));
         startActivity(summary);
     }
     private void tip()
