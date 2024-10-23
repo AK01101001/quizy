@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wuwa lore</string>
+    <string name="summary">Correct answears</string>
+    <string name="description">Wuwa lore quiz</string>
+    <string name="begin">Begin</string>
+    <string name="sumarry_text">Corect Answears</string>
+    <string name="placeHolder">placeHolder</string>
+</resources>
