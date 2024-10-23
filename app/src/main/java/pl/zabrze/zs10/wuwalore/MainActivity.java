@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Debug;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,12 +22,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         start = findViewById(R.id.start);
         start.setOnClickListener(
-                view -> Begin()
+                view -> begin()
         );
     }
 
-    public void Begin()
+    public void begin()
     {
+        Toast.makeText(this, "initialize quiz", Toast.LENGTH_SHORT).show();
         Intent questions = new Intent(MainActivity.this, Questions.class);
         startActivity(questions);
     }
