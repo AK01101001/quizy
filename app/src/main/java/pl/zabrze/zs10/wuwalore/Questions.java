@@ -1,9 +1,12 @@
 package pl.zabrze.zs10.wuwalore;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,6 +25,9 @@ public class Questions extends AppCompatActivity {
     int correctAnswersCounter = 0;
 
     ArrayList<Question> questions = new ArrayList<>();
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
